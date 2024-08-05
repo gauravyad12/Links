@@ -1,0 +1,26 @@
+/* Ensure the container has some margin and padding */
+div {
+    margin-bottom: 20px;
+}
+
+/* Style the download link */
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.download-link:active {
+    background-color: #004494;
+}
