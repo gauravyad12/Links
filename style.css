@@ -1,11 +1,13 @@
-/* Ensure the container has some margin and padding */
-div {
-    margin-bottom: 20px;
+/* Container for the download link */
+.download-container {
+    text-align: center; /* Center the download link */
+    margin-top: 10px; /* Space above the link */
 }
 
 /* Style the download link */
 .download-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -16,11 +18,20 @@ div {
     transition: background-color 0.3s, transform 0.3s;
 }
 
+/* Style the download icon */
+.download-icon {
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Hover effect for the download link */
 .download-link:hover {
     background-color: #0056b3;
     transform: scale(1.05);
 }
 
+/* Active effect for the download link */
 .download-link:active {
     background-color: #004494;
 }
